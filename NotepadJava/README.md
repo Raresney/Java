@@ -1,17 +1,8 @@
 # 📝 NotepadJava
 
-A minimal text editor built with Java Swing — a scrollable text area with a functional Edit menu.
+A minimal text editor built with Java Swing.
 
 > Part of [Java Projects](../README.md) — Bighiu Rares
-
----
-
-## ✨ Features
-
-- Cut, Copy, Paste
-- Delete selected text
-- Select All
-- Scrollable text area
 
 ---
 
@@ -24,6 +15,8 @@ java NotepadJava
 
 ---
 
-## 🛠️ Skills
+## 📌 Notes
 
-Java Swing, JTextArea, JMenuBar, ActionListener, JScrollPane
+- Text area wrapped in `JScrollPane` for overflow handling
+- Edit menu built with `JMenuBar` and `JMenuItem`
+- Uses built-in `JTextArea` methods: `cut()`, `copy()`, `paste()`
